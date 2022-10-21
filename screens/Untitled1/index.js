@@ -2,15 +2,15 @@ import React from "react";
 import { View, StyleSheet } from "react-native";
 
 const Untitled1 = () => {
-  return <View style={_styles.CzwOXWTT}>
+  return <View style={_styles.style1}>
       </View>;
 };
 
 export default Untitled1;
 
 const _styles = StyleSheet.create({
-  CzwOXWTT: {
-    backgroundColor: "#f0f0f1",
+  style1: {
+    backgroundColor: "#2830b7",
     padding: 10,
     position: "relative",
     height: "100%"
