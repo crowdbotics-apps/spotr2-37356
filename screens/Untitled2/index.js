@@ -31,8 +31,14 @@ const styles = StyleSheet.create({
     width: 197,
     height: 50,
     lineHeight: 14,
-    fontSize: 14,
-    borderRadius: 0
+    fontSize: 28,
+    borderRadius: 0,
+    opacity: 1,
+    fontWeight: "700",
+    textAlign: "center",
+    top: 261.5,
+    left: 80,
+    position: "absolute"
   }
 });
 export default Untitled2;
