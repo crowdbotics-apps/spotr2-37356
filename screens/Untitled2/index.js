@@ -5,11 +5,12 @@ import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 const Untitled2 = () => {
   return <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={{
-      backgroundColor: '#f0f0f1',
+      backgroundColor: "#f0f0f1",
       padding: 10,
-      position: 'relative',
-      flex: 1
-    }}><Text style={styles.gUIXdlqB}>Lorem ipsum…</Text></ScrollView>
+      position: "relative",
+      flex: 1,
+      justifyContent: "center"
+    }} style={styles.LwVrAUoX}><Text style={styles.gUIXdlqB}>Lorem ipsum…</Text></ScrollView>
     </SafeAreaView>;
 };
 
@@ -39,6 +40,10 @@ const styles = StyleSheet.create({
     top: 261.5,
     left: 80,
     position: "absolute"
+  },
+  LwVrAUoX: {
+    width: 357,
+    height: 573
   }
 });
 export default Untitled2;
